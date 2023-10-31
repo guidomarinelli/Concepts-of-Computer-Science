@@ -15,7 +15,7 @@ STOP_RANGE = 1500
 
 
 def random_prime_number():
-    """Generate random prime number."""
+    """Returns a prime number from a given range."""
 
     while True:
         n = random.randrange(START_RANGE, STOP_RANGE)
